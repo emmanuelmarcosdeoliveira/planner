@@ -2493,6 +2493,7 @@ __metadata:
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:^6.24.1"
     sort-by: "npm:^1.2.0"
+    tailwind-variants: "npm:^0.2.1"
     tailwindcss: "npm:^3.4.4"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.3.1"
@@ -3025,6 +3026,24 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 10c0/6c4032340701a9950865f7ae8ef38578d8d7053f5e10518076e6554a9381fa91bd9c6850193695c141f32b21f979c985db07265a758867bac95de05f7d8aeb39
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^2.2.0":
+  version: 2.4.0
+  resolution: "tailwind-merge@npm:2.4.0"
+  checksum: 10c0/77bd20647d08db78a0bdf7b57d4b904479aee7727f44570f8834d62a1aa56f42d7ae68ac959e3d610c9f188aa164eeefb6c43df4f0c8bb7cfc3418e1575bfecb
+  languageName: node
+  linkType: hard
+
+"tailwind-variants@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "tailwind-variants@npm:0.2.1"
+  dependencies:
+    tailwind-merge: "npm:^2.2.0"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: 10c0/3fb392f25ed68c19b5bb701b00c62269b09d0e55658364211a479331316aac0825134f8708e7f7e33831ae29a4315d2bab16f9447cf2881b69739d4063993d5a
   languageName: node
   linkType: hard
 
